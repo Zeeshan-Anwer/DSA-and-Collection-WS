@@ -1,0 +1,26 @@
+ls 
+ls -a
+git init
+touch a.txt
+git status 
+git add a.txt
+git add . // all file at a time
+git commit -m " mesg" 
+git restore --staged names.txt
+git log
+git reset e2fe3175eae2b054605745680e4e49cb9ed43893	//(commit id) will reset all above commit
+git stash		// all work will go into back stage with new commit
+git stash pop	//all work will come into front stage
+git stash clean	
+git remote add origin https://github.com/Zeeshan-Anwer/DSA-Tracker.git  //to add remote project from github
+git remote -v	// show all folder attach with that romote project
+git push origin master //push to remote, master is branch
+git branch feature 	// to create new branch name feature
+git checkout feature 	// to select feature branch 
+git merge feature 	// to add feature branch code to main branch
+git clone https://github.com/Zeeshan-Anwer/DSA-Tracker.git // it will create clone of this git origin to local repo
+git remote add upstream i //here replace i with link you fork,  
+
+
+if we want to push one branch thing to another branch just use above push 
+code with commit id
